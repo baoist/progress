@@ -5,9 +5,7 @@ class ProgressController < ApplicationController
     
     @bar = img.listall
 
-    image_compare(img.most_recent, img.recent_offset(10)).each do |hi|
-      puts hi.to_s + "foo" 
-    end
+    @baz = image_compare(img.most_recent, img.recent_offset(10))
   end
 
   def short
@@ -23,6 +21,11 @@ class ProgressController < ApplicationController
     base_img = Magick::Image.read("#{image_base}").first
     current_img = Magick::Image.read("#{image_compare}").first
 
-    current_img.difference(base_img)
+    rgb_diff = Array.new
+    current_img.difference(base_img).each do |color|
+      rgb_diff << color
+    end
+
+    rgb_diff
   end
 end

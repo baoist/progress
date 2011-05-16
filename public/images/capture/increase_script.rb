@@ -1,13 +1,17 @@
 require 'ftools'
 
-Dir.chdir '/Users/Jesus/projects/progress/public/images/capture'
+puts 'How many images would you like to ?'
+batch_amt = gets.chomp
 
-pic_name = Dir['/Users/Jesus/projects/progress/public/images/capture/clown.jpeg']
+directory = '/Users/Jesus/projects/progress/public/images/capture'
+Dir.chdir directory
 
-for i in (1..50)
-  sleep 2
+pic_name = Dir[directory + '/image_to_copy.jpeg']
+
+for i in (1..batch_amt.to_i) # for loop in ruby, max is the amount inputed.
+  sleep 1 # wait 1 second between. Used just to test
   File.copy(pic_name[0], "#{i}.jpeg")
-  puts "#{i}.jpeg"
+  puts "#{i}.jpeg created"
 end
 
 puts 'Finished!'

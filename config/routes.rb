@@ -10,6 +10,7 @@ Progress::Application.routes.draw do
   root :to => "progress#index"
 
   match "/progress" => "progress#index"
+  match "/recent" => "progress#recent", :as => :recent
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

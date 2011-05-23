@@ -1,14 +1,21 @@
 <div id="index">
   <h1>Progress Home</h1>
-  <% @foo.each do |f| %>
-    <p><%= f %></p>
+  <% @baz.each do |z| %>
+    <%= z %>
+    <br>
   <% end %>
+  <% @foo.each do |f| %>
+    <img src="<%= f.gsub('public', '') %>" width="60" />
+  <% end %>
+  <br>
+  <br>
   <% @bar.each do |f| %>
-    <p><%= f %></p>
+    <img src="<%= f.gsub('public', '') %>" width="60" />
   <% end %>
   <ul>
     <li><a href="/progress/short">Short Time-Lapse</a></li>
     <li><a href="/progress/day">Day-Lapse</a></li>
     <li><a href="/progress/graph">Graph</a></li>
   <ul>
+
 </div>

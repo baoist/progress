@@ -22,7 +22,7 @@ class ProgressController < ApplicationController
       format.json  { render :json => {:foo => "bar", :wibble => "wobble"} }
     end
   end
-
+  
   def image_compare(image_base, image_compare)
     base_img = Magick::Image.read("#{image_base}").first
     current_img = Magick::Image.read("#{image_compare}").first

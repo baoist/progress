@@ -2380,3 +2380,1659 @@ Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
 Started GET "/recent" for 127.0.0.1 at Mon May 16 12:58:21 -0500 2011
   Processing by ProgressController#recent as HTML
 Completed 406 Not Acceptable in 0ms
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 14:51:48 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 46ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 14:53:01 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.0ms)
+Completed   in 33ms
+
+ActionView::Template::Error (undefined method `each' for #<ImageHandle:0x2a097c0>):
+    9:     <li><a href="/progress/graph">Graph</a></li>
+    10:   <ul>
+    11:     <% img = ImageHandle.new('public/images/capture/', 'jpeg') %>
+    12:     <% img.each do |foo| %>
+    13:       <%= foo %>
+    14:     <% end %>
+    15: 
+  app/views/progress/index.html.erb:12:in `_app_views_progress_index_html_erb___36709094_22050920_0'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 14:53:11 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.7ms)
+Completed   in 35ms
+
+ActionView::Template::Error (undefined method `each' for #<ImageHandle:0x28b4f00>):
+    9:     <li><a href="/progress/graph">Graph</a></li>
+    10:   <ul>
+    11:     <% @img = ImageHandle.new('public/images/capture/', 'jpeg') %>
+    12:     <% @img.each do |foo| %>
+    13:       <%= foo %>
+    14:     <% end %>
+    15: 
+  app/views/progress/index.html.erb:12:in `_app_views_progress_index_html_erb___36709094_21347120_0'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (130.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (138.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 14:53:33 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 36ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun May 22 16:40:17 -0500 2011
+
+SyntaxError (/Users/Jesus/projects/progress/app/controllers/progress_controller.rb:1: syntax error, unexpected kCLASS, expecting $end
+3class ProgressController < ApplicationController
+      ^):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun May 22 16:40:26 -0500 2011
+
+SyntaxError (/Users/Jesus/projects/progress/app/controllers/progress_controller.rb:1: syntax error, unexpected kCLASS, expecting $end
+3class ProgressController < ApplicationController
+      ^):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun May 22 16:40:27 -0500 2011
+
+SyntaxError (/Users/Jesus/projects/progress/app/controllers/progress_controller.rb:1: syntax error, unexpected kCLASS, expecting $end
+3class ProgressController < ApplicationController
+      ^):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun May 22 16:40:42 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 282ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun May 22 17:12:02 -0500 2011
+  Processing by ProgressController#index as HTML
+Completed   in 6ms
+
+NoMethodError (undefined method `image_compare' for #<ProgressController:0x2a8a640>):
+  app/controllers/progress_controller.rb:8:in `index'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun May 22 17:12:05 -0500 2011
+  Processing by ProgressController#index as HTML
+Completed   in 6ms
+
+NoMethodError (undefined method `image_compare' for #<ProgressController:0x2939cc8>):
+  app/controllers/progress_controller.rb:8:in `index'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (70.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun May 22 17:12:24 -0500 2011
+  Processing by ProgressController#index as HTML
+Completed   in 6ms
+
+ArgumentError (wrong number of arguments (2 for 4)):
+  app/controllers/progress_controller.rb:8:in `image_compare'
+  app/controllers/progress_controller.rb:8:in `index'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun May 22 17:13:35 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 62ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/captcha/circle.json" for 127.0.0.1 at Mon May 23 11:10:55 -0500 2011
+
+ActionController::RoutingError (No route matches "/captcha/circle.json"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:11:30 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 150ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:12:05 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 100ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/images/capture/clown2.jpeg" for 127.0.0.1 at Mon May 23 11:12:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/clown2.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/public/images/capture/clown.jpeg" for 127.0.0.1 at Mon May 23 11:12:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/clown.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/1.jpeg" for 127.0.0.1 at Mon May 23 11:12:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/1.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/4.jpeg" for 127.0.0.1 at Mon May 23 11:12:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/4.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/3.jpeg" for 127.0.0.1 at Mon May 23 11:12:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/3.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/2.jpeg" for 127.0.0.1 at Mon May 23 11:12:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/2.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/6.jpeg" for 127.0.0.1 at Mon May 23 11:12:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/6.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/5.jpeg" for 127.0.0.1 at Mon May 23 11:12:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/5.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/public/images/capture/7.jpeg" for 127.0.0.1 at Mon May 23 11:12:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/7.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/public/images/capture/8.jpeg" for 127.0.0.1 at Mon May 23 11:12:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/8.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/public/images/capture/9.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/9.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/10.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/10.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/public/images/capture/11.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/11.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/public/images/capture/12.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/12.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/13.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/13.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/14.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/14.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/15.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/15.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/public/images/capture/16.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/16.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/17.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/17.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/public/images/capture/18.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/18.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/public/images/capture/19.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/19.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/20.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/20.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/21.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/21.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/22.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/22.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/23.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/23.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/24.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/24.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/25.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/25.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/26.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/26.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/27.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/27.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/28.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/28.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/29.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/29.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/public/images/capture/30.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/30.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/31.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/31.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/32.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/32.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/public/images/capture/33.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/33.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/public/images/capture/34.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/34.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/public/images/capture/35.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/35.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/36.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/36.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/public/images/capture/37.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/37.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/public/images/capture/38.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/38.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/public/images/capture/39.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/39.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/public/images/capture/40.jpeg" for 127.0.0.1 at Mon May 23 11:12:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/40.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/41.jpeg" for 127.0.0.1 at Mon May 23 11:12:07 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/41.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/42.jpeg" for 127.0.0.1 at Mon May 23 11:12:07 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/42.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/43.jpeg" for 127.0.0.1 at Mon May 23 11:12:07 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/43.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/44.jpeg" for 127.0.0.1 at Mon May 23 11:12:07 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/44.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/45.jpeg" for 127.0.0.1 at Mon May 23 11:12:07 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/45.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/46.jpeg" for 127.0.0.1 at Mon May 23 11:12:07 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/46.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/47.jpeg" for 127.0.0.1 at Mon May 23 11:12:07 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/47.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/48.jpeg" for 127.0.0.1 at Mon May 23 11:12:07 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/48.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/public/images/capture/49.jpeg" for 127.0.0.1 at Mon May 23 11:12:07 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/49.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/50.jpeg" for 127.0.0.1 at Mon May 23 11:12:07 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/50.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:12:09 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 35ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:12:20 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 32ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 35ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/images/capture/2.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/2.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/clown2.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/clown2.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/public/images/capture/4.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/4.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/public/images/capture/1.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/1.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/3.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/3.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/clown.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/clown.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/5.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/5.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/6.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/6.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/7.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/7.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/8.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/8.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/9.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/9.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/public/images/capture/10.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/10.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/public/images/capture/11.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/11.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/12.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/12.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/public/images/capture/13.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/13.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/14.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/14.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/15.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/15.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/16.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/16.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/17.jpeg" for 127.0.0.1 at Mon May 23 11:12:22 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/17.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/18.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/18.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/19.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/19.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/20.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/20.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/21.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/21.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/22.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/22.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/23.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/23.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/24.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/24.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/25.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/25.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/26.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/26.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/27.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/27.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/28.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/28.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/public/images/capture/29.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/29.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/30.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/30.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/31.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/31.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/32.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/32.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/33.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/33.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/34.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/34.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/35.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/35.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/36.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/36.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/37.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/37.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/public/images/capture/38.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/38.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/39.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/39.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/40.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/40.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/41.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/41.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/42.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/42.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/43.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/43.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/public/images/capture/44.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/44.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/public/images/capture/45.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/45.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/public/images/capture/46.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/46.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/47.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/47.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/48.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/48.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/49.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/49.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/50.jpeg" for 127.0.0.1 at Mon May 23 11:12:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/50.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:12:40 -0500 2011
+  Processing by ProgressController#index as HTML
+Completed   in 4ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.length):
+  app/models/image_handle.rb:28:in `multi_offset'
+  app/models/image_handle.rb:27:in `each'
+  app/models/image_handle.rb:27:in `multi_offset'
+  app/controllers/progress_controller.rb:4:in `index'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:13:43 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (92.4ms)
+Completed 200 OK in 673ms (Views: 412.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/images/capture/clown.jpeg" for 127.0.0.1 at Mon May 23 11:13:45 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/clown.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/clown2.jpeg" for 127.0.0.1 at Mon May 23 11:13:45 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/clown2.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/1.jpeg" for 127.0.0.1 at Mon May 23 11:13:45 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/1.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/public/images/capture/3.jpeg" for 127.0.0.1 at Mon May 23 11:13:45 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/3.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/public/images/capture/4.jpeg" for 127.0.0.1 at Mon May 23 11:13:45 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/4.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/public/images/capture/2.jpeg" for 127.0.0.1 at Mon May 23 11:13:45 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/2.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/5.jpeg" for 127.0.0.1 at Mon May 23 11:13:45 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/5.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/6.jpeg" for 127.0.0.1 at Mon May 23 11:13:45 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/6.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/7.jpeg" for 127.0.0.1 at Mon May 23 11:13:45 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/7.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/8.jpeg" for 127.0.0.1 at Mon May 23 11:13:46 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/8.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/public/images/capture/9.jpeg" for 127.0.0.1 at Mon May 23 11:13:46 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/9.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/10.jpeg" for 127.0.0.1 at Mon May 23 11:13:46 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/10.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/public/images/capture/11.jpeg" for 127.0.0.1 at Mon May 23 11:13:46 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/11.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/public/images/capture/12.jpeg" for 127.0.0.1 at Mon May 23 11:13:46 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/12.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.2ms)
+
+
+Started GET "/public/images/capture/13.jpeg" for 127.0.0.1 at Mon May 23 11:13:46 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/13.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/14.jpeg" for 127.0.0.1 at Mon May 23 11:13:46 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/14.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/public/images/capture/15.jpeg" for 127.0.0.1 at Mon May 23 11:13:46 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/15.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/16.jpeg" for 127.0.0.1 at Mon May 23 11:13:46 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/16.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/17.jpeg" for 127.0.0.1 at Mon May 23 11:13:46 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/17.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/public/images/capture/18.jpeg" for 127.0.0.1 at Mon May 23 11:13:46 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/18.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/19.jpeg" for 127.0.0.1 at Mon May 23 11:13:47 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/19.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/public/images/capture/20.jpeg" for 127.0.0.1 at Mon May 23 11:13:47 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/20.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/public/images/capture/21.jpeg" for 127.0.0.1 at Mon May 23 11:13:47 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/21.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/22.jpeg" for 127.0.0.1 at Mon May 23 11:13:47 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/22.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/23.jpeg" for 127.0.0.1 at Mon May 23 11:13:47 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/23.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/public/images/capture/24.jpeg" for 127.0.0.1 at Mon May 23 11:13:47 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/24.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/public/images/capture/25.jpeg" for 127.0.0.1 at Mon May 23 11:13:47 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/25.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/26.jpeg" for 127.0.0.1 at Mon May 23 11:13:47 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/26.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/public/images/capture/27.jpeg" for 127.0.0.1 at Mon May 23 11:13:47 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/27.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/public/images/capture/28.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/28.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/29.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/29.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/30.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/30.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/public/images/capture/31.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/31.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/32.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/32.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/33.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/33.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/public/images/capture/34.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/34.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.1ms)
+
+
+Started GET "/public/images/capture/35.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/35.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/36.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/36.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/public/images/capture/37.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/37.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/38.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/38.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/39.jpeg" for 127.0.0.1 at Mon May 23 11:13:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/39.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/40.jpeg" for 127.0.0.1 at Mon May 23 11:13:49 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/40.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/public/images/capture/41.jpeg" for 127.0.0.1 at Mon May 23 11:13:49 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/41.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/public/images/capture/42.jpeg" for 127.0.0.1 at Mon May 23 11:13:49 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/42.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/public/images/capture/43.jpeg" for 127.0.0.1 at Mon May 23 11:13:49 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/43.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/44.jpeg" for 127.0.0.1 at Mon May 23 11:13:49 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/44.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/public/images/capture/45.jpeg" for 127.0.0.1 at Mon May 23 11:13:49 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/45.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/46.jpeg" for 127.0.0.1 at Mon May 23 11:13:49 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/46.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/47.jpeg" for 127.0.0.1 at Mon May 23 11:13:49 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/47.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/capture/48.jpeg" for 127.0.0.1 at Mon May 23 11:13:49 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/48.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/capture/49.jpeg" for 127.0.0.1 at Mon May 23 11:13:49 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/49.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/public/images/capture/50.jpeg" for 127.0.0.1 at Mon May 23 11:13:49 -0500 2011
+
+ActionController::RoutingError (No route matches "/public/images/capture/50.jpeg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:15:20 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 38ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:15:34 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 45ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:16:07 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 55ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:20:47 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 28ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:24:39 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 29ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:24:41 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 29ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:24:43 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 30ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:24:55 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:25:03 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 28ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:25:08 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 31ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:25:09 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:25:12 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:25:16 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 32ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:25:20 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 30ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:25:27 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 34ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:25:31 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 74ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:25:35 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 32ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:25:57 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 35ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:26:11 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 33ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:26:14 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 30ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:26:16 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 77ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:26:42 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 32ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:27:52 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 34ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:27:54 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 31ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress/graph" for 10.120.22.106 at Mon May 23 11:27:59 -0500 2011
+  Processing by ProgressController#graph as HTML
+Rendered progress/graph.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 25ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:28:08 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 37ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress/graph" for 10.120.22.106 at Mon May 23 11:28:12 -0500 2011
+  Processing by ProgressController#graph as HTML
+Rendered progress/graph.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress/graph" for 10.120.22.106 at Mon May 23 11:28:14 -0500 2011
+  Processing by ProgressController#graph as HTML
+Rendered progress/graph.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:28:21 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 33ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:28:31 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 34ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:29:05 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 36ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:29:11 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 35ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:29:20 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 39ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/progress" for 127.0.0.1 at Mon May 23 11:30:31 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 36ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.120.22.106 at Mon May 23 11:30:34 -0500 2011
+  Processing by ProgressController#index as HTML
+Rendered progress/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 31ms (Views: 8.9ms | ActiveRecord: 0.0ms)
